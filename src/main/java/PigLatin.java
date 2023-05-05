@@ -18,5 +18,6 @@ public class PigLatin {
      */
     public String returnPigLatin(String in){
         return in.substring(1)+ in.substring(0,1) + "ay";
+        
     }
 }
